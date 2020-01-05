@@ -1,1 +1,1 @@
-# coursera-gcp-fundamentals
+Notes for Google Cloud Platform Fundamentals: Core Infrastructure course
