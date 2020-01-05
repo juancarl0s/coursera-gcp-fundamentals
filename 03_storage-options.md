@@ -53,3 +53,29 @@ Cloud Storage also offers lifecycle management policies
 ## Classes
 
 ![](images/cloud-storage-classes.png?raw=true)
+
+## Move data
+gsutil which is the cloud storage command from this cloud SDK.
+You can also move data in with a drag and drop in the GCP console,
+if you use the Google Chrome browser.
+But what if you have to upload terabytes or even petabytes of data?
+Google Cloud platform offers
+the online storage transfer service and the offline transfer appliance to help.
+The storage transfer service lets you schedule
+and manage batch transfers to cloud storage from
+another cloud provider from a different cloud storage region or from an HTTPS endpoint.
+The transfer appliance is a rackable,
+high-capacity storage server that you lease from Google Cloud.
+You simply connect it to your network, load it with data,
+and then ship it to an upload facility where the data is uploaded to cloud storage.
+This service enables you to securely
+transfer up to a petabyte of data on a single appliance
+
+mport and export tables from and to BigQuery as well as Cloud SQL.
+You can also store App Engine logs,
+cloud data store backups,
+and objects used by App Engine applications like images.
+Cloud storage can also store instant startup scripts,
+Compute Engine images, and objects used by Compute Engine applications.
+In short, cloud storage is often the ingestion point for data being
+moved into the cloud and is frequently the long-term storage location for data.
